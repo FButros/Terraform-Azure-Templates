@@ -4,9 +4,18 @@
 A collection of Terraform snippets designed for deploying resources on Azure. These snippets are a great starting point for building infrastructure in the cloud using Terraform, an open-source infrastructure as code tool.
 
 ## Prerequisites
-- A basic understanding of cloud concepts, Terraform, and Azure.
-- Terraform installed on your system.
-- An active Azure account.
+Before using these Terraform snippets, ensure you have the following prerequisites in place:
+
+- **Basic Understanding**: It's helpful to have a basic understanding of cloud computing concepts, Terraform, and Microsoft Azure.
+
+- **Terraform Installation**: Make sure you have Terraform installed on your local machine. You can download it from the [Terraform website](https://www.terraform.io/downloads.html) and follow the installation instructions.
+
+- **Azure Account**: You'll need an active Microsoft Azure account. If you don't have one, you can sign up for a free Azure account on the [Azure website](https://azure.com/free).
+
+- **Azure Permissions**: Ensure that your Azure account has the necessary permissions to create and manage Azure resources. You might need to set up authentication and access control, such as Azure Service Principals, depending on your use case.
+
+With these prerequisites in place, you'll be ready to deploy and manage Azure resources using Terraform effortlessly.
+
 
 ## Snippets Description
 Each snippet in this repository is a self-contained Terraform configuration for a specific Azure resource:
